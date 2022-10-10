@@ -12,9 +12,9 @@ export default defineNuxtConfig({
   //       "./node_modules/@shopware-pwa/composables-next/dist/index.mjs",
   //   },
   // },
-  // build: {
-  //   transpile: ["@shopware-pwa/composables-next"],
-  // },
+  build: {
+    transpile: ["@shopware-pwa/composables-next"],
+  },
   modules: [
     "@vueuse/nuxt",
     "@unocss/nuxt",
